@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("images/table5.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover ;
+    font-family: 'Courgette', cursive;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-txt {
+    font-family: 'Tangerine', cursive;
+    margin-top: 30px;
+    margin-bottom: auto;
+    font-size: 42px;
+    font-weight: 700;
+    top: 10px;
+    color: goldenrod;
+}
+
+h2 {
+    margin-top: auto;
+    font-size: 22px;
+}
+
+.dealer {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.dealer-msg {
+    color: aliceblue;
+    font-size: 18px;
+}
+#results {
+    color: rgb(215, 119, 3);
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cards img {
+    height: 175px;
+    width: 125px;
+    margin: 3px;
+    scale: 0.95;
+}
+
+button {
+    margin-top: 3px;
+    width: 100px;
+    height: 40px;
+    margin: 3.5px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    font-family: "Courgette", cursive;
+}
+
+button:hover:active {
+    background-color: goldenrod ;
+    color: #016f32;
+}
+
+#double-bet {
+    border-radius: 250px;
+}
+
+#play-again-btn {
+    margin-top: 20px;
+    background-color: #007BFF;
+    width: 300px;
+}
+
+.footer-container {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    display: inline;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10;
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+#logo {
+    padding: 1px;
+    height: 20px;
+    scale: 1.3;
+}

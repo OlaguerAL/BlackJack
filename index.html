@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- Tangerine Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <!-- Satisfy Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!-- Courgette Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/ef2d935815.js" crossorigin="anonymous"></script>
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+    </style>
+    <title>BlackJack</title>
+</head>
+<body>
+    <h1 class="header-txt">BlackJack</h1>
+    <div class="dealer">
+        <p class="dealer-msg">Dealer's Message:<p id="results"></p></p>
+        <h2>Dealer's Hand: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards" class="cards">
+            <img id="hidden" src="images/cards/BACK.png">
+        </div>
+    </div>
+    <div class="you">
+        <h2>Your Hand: <span id="your-sum"></span></h2>
+        <div id="your-cards" class="cards">
+    
+        </div>
+    </div>
+    <div class="play-btns">
+        <button id="hit">Hit</button>
+        <!-- <button id="double-bet">x2 Bet</button> -->
+        <button id="stand">Stand</button> 
+    </div>
+    <div class="utility-belt">
+        <!-- <h6 class="yourMoney">Your Money: $</h6> -->
+    </div>
+    <br>
+    <!-- <button id="play-again-btn" onclick="deal()">Deal</button> -->
+    <button id="play-again-btn" onclick="playAgain()">Play Again</button>
+    
+    <footer class="footer-container">
+        <p id="copyright">Copyright 2023 © Al Victor Olaguer</p>
+        <div>
+            <a href="#"><img src="images/logo2.png" id="logo"></a>
+        </div>
+    </footer>
+
+    <script
+        type="text/javascript"
+        src="index.js">
+    </script>
+
+</body>
+</html>
